@@ -1,0 +1,6 @@
+com\hendisantika\springbootrestapipostgresql\SpringBootRestApiPostgresqlApplication.class
+com\hendisantika\springbootrestapipostgresql\controller\ComunaRestController.class
+com\hendisantika\springbootrestapipostgresql\repository\ComunaRepository.class
+com\hendisantika\springbootrestapipostgresql\config\SwaggerConfig.class
+com\hendisantika\springbootrestapipostgresql\entity\Comuna.class
+com\hendisantika\springbootrestapipostgresql\config\WebConfiguration.class

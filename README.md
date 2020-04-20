@@ -1,4 +1,4 @@
-# AppClimaSantiago
+# Spring_Docker_Swagger
 Prueba
 
 # Preparaciones Iniciales:
@@ -27,20 +27,20 @@ mvn clean spring-boot:run
 
 # Metodos y Endpoint son los siguientes:
 
--Agregar nuevo Clima:
+-Agregar nuevo Tienda:
 
-POST /api/comunaClima
+POST /api/Tienda
 
-http://localhost:8080/api/comunaClima
+http://localhost:8081/api/Tienda
 
 <img src="https://github.com/imundo/AppClimaSantiago/blob/master/img/addClima.PNG">
 
 
 -Mostrar todos los Climas Registrados:
 
-GET /api/comunaClima
+GET /api/Tienda
 
-http://localhost:8080/api/comunaClima
+http://localhost:8081/api/Tienda
 
 <img src="https://github.com/imundo/AppClimaSantiago/blob/master/img/viewClima.PNG">
 
@@ -48,33 +48,33 @@ http://localhost:8080/api/comunaClima
 
 -Buscar Clima por ID: 
 
-GET /api/comunaClima/{id}
+GET /api/Tienda/{id}
 
-http://localhost:8080/api/comunaClima/{id}
+http://localhost:8081/api/Tienda/{id}
 
 
 
 -Buscar Clima por Nombre: 
 
-GET /api/comunaClima?name=name
+GET /api/Tienda/?name=name
 
-http://localhost:8080/api/comunaClima?name=name
+http://localhost:8081/api/Tienda/?name=name
 
 
 
 -Borrar Clima por ID: 
 
-DELETE /api/comunaClima/{id}
+DELETE /api/Tienda/{id}
 
-http://localhost:8080/api/comunaClima/{id}
+http://localhost:8081/api/Tienda/{id}
 
 
 
 -Borrar todos los registros
 
-DELETE /api/comunaClima
+DELETE /api/Tienda
 
-http://localhost:8080/api/comunaClima
+http://localhost:8081/api/Tienda
 
 
 

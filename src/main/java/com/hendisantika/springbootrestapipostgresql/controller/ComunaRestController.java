@@ -23,7 +23,7 @@ public class ComunaRestController {
     private ComunaRepository repository;
 
     @PostMapping
-    public ResponseEntity<?> addComunaClima(@RequestBody Comuna comuna) {
+    public ResponseEntity<?> addComunaTienda(@RequestBody Comuna comuna) {
         return new ResponseEntity<>(repository.save(comuna), HttpStatus.CREATED);
     }
 

@@ -5,9 +5,10 @@ spring:
   # Database
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/c1?createDatabaseIfNotExist=true
+    url: jdbc:postgresql://db:5432/tienda?createDatabaseIfNotExist=true
     username: postgres
     password: postgres
+    port: 5432
   # JPA properties
   jpa:
     hibernate:
@@ -26,7 +27,7 @@ logging:
     org.hibernate: DEBUG
 # Server configuration
 server:
-  port: 8081
+  port: 8080
   sessionTimeout: 30
 # Security configuration
 security:

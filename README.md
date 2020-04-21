@@ -1,5 +1,6 @@
 # Spring_Docker_Swagger
-Prueba
+
+servicio CRUD con Springboot, Swagger para documentacion y postgresql como BD, tambien 
 
 # Preparaciones Iniciales:
 -Tener Instalado Java 1.8 y superior

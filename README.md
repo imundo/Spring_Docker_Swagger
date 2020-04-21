@@ -6,7 +6,7 @@ Prueba
 
 -Tener Instalado Maven
 
--Tener Postgresql
+-Docker
 
 -Crear base de datos en postgres segun esta configurado en el aplication.yml 
 
@@ -21,9 +21,26 @@ Ejemplo:
     
 -En el aplication.yml se puede personalizar niveles de seguridad, conexiones, entre otrs de ser necesario.
 
-# Para Copilar y ejecutar correr el siguiente comando en raiz de proyecto:
+# Para Copilar y ejecutar correr el siguiente comando en raiz de proyecto de forma LOCAL:
 
 mvn clean spring-boot:run
+
+# Para Copilar y ejecutar correr el siguiente comando en raiz de proyecto dentro de container Dockers:
+
+mvn clean install
+
+mvn clean install -DskipTests=true (Si desea saltar test)
+
+docker-compose up --build
+
+# Swagger Documentacion de Servicio:
+
+http://localhost:8080/swagger-ui.html#
+
+<img src="https://github.com/imundo/Spring_Docker_Swagger/blob/master/img/img2.JPG">
+
+
+<img src="https://github.com/imundo/Spring_Docker_Swagger/blob/master/img/img4.JPG">
 
 # Metodos y Endpoint son los siguientes:
 
@@ -33,7 +50,7 @@ POST /api/Tienda
 
 http://localhost:8081/api/Tienda
 
-<img src="https://github.com/imundo/AppClimaSantiago/blob/master/img/addClima.PNG">
+<img src="https://github.com/imundo/Spring_Docker_Swagger/blob/master/img/img3.JPG">
 
 
 -Mostrar todos los Climas Registrados:
@@ -42,7 +59,7 @@ GET /api/Tienda
 
 http://localhost:8081/api/Tienda
 
-<img src="https://github.com/imundo/AppClimaSantiago/blob/master/img/viewClima.PNG">
+<img src="https://github.com/imundo/Spring_Docker_Swagger/blob/master/img/img1.JPG">
 
 
 

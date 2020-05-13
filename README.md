@@ -24,7 +24,7 @@ Ejemplo:
 
 # Para Copilar y ejecutar correr el siguiente comando en raiz de proyecto de forma LOCAL:
 
-mvn clean spring-boot:run
+mvn clean install spring-boot:run
 
 # Para Copilar y ejecutar correr el siguiente comando en raiz de proyecto dentro de container Dockers:
 
